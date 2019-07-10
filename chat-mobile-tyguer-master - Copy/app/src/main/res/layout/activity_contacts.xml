@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cs2901.utec.chat_mobile.ContactsActivity">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/main_recycler_view"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+
+    </android.support.v7.widget.RecyclerView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        ><![CDATA[
+
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:background="#ffffff">
+
+
+        ]]>
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="69dp"
+            android:onClick="sigac"
+            android:text="Button" />
+
+        <ImageView
+            android:id="@+id/imageview2"
+            android:layout_width="fill_parent"
+            android:layout_height="150dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/se" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:onClick="sigoc"
+            android:text="ingresa a betsson" />
+
+        <ImageView
+            android:id="@+id/imageview3"
+            android:layout_width="fill_parent"
+            android:layout_height="165dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/sa" />
+
+        <ImageView
+            android:id="@+id/imageview1"
+            android:layout_width="fill_parent"
+            android:layout_height="242dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/si" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
